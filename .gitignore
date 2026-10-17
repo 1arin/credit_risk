@@ -1,0 +1,26 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Database & Runtime Audit Logs (auto-generated on app launch)
+*.db-journal
+credit_audit_trail_*.csv
+
+# Unused Figma UI export artifacts
+ui/
+project.zip
+figma_thumbnail.png
